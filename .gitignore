@@ -4,5 +4,7 @@
 /lib
 
 #Sqlite
-
 *.sqlite3
+
+#LibreOffice
+.~lock.*
