@@ -8,3 +8,8 @@
 
 #LibreOffice
 .~lock.*
+
+#Django
+
+*.pyc
+/**/miprations/*.py
