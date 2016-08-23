@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'geo.apps.GeoConfig',
+    'samba.document',
 ]
 
 MIDDLEWARE = [
@@ -120,4 +122,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-AUTH_USER_MODEL = 'core.models.Usuario'
+#AUTH_USER_MODEL = 'core.models.Usuario'
