@@ -18,6 +18,9 @@ attr = {
 	'MUNICIPIO_COD1': 6,
 	'MUNICIPIO_COD2': 7,
 	'MUNICIPIO_NOME':8,
+	'LATITUDE':10,
+	'LONGITUDE': 9,
+	'ALTIDUDE': 11
 }
 
 if args.file:
@@ -51,8 +54,9 @@ if args.file:
 				'fields': {
 					'nome': linha[attr['MUNICIPIO_NOME']],
 					'descricao': 'Cidade de {}'.format(linha[attr['MUNICIPIO_NOME']]),
-					'lat': 1.0,
-					'lng': 1.0,
+					'lat': linha[attr['LATITUDE']],
+					'lng': linha[attr['LONGITUDE']],
+					'alt': linha[attr['ALTIDUDE']],
 					'cod_ibge': linha[attr['MUNICIPIO_COD2']],
 					'UF_id': ufs_map[linha[attr['UF_NOME']]]
 				}
