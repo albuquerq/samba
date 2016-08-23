@@ -1,4 +1,4 @@
-# virtualenv
+#virtualenv
 /bin
 /include
 /lib
@@ -13,3 +13,6 @@
 *.pyc
 /**/migrations/*.py
 samba/**/migrations/*.py
+
+#Dia
+*.dia.autosave
