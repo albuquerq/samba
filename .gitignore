@@ -3,6 +3,9 @@
 /include
 /lib
 
+#Pip
+*pip-selfcheck.json
+
 #Sqlite
 *.sqlite3
 
