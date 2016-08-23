@@ -25,6 +25,7 @@ class Municipio(models.Model):
 
 	lat = models.FloatField()
 	lng = models.FloatField()
+	alt = models.FloatField()
 
 	def __str__(self):
 		return self.nome
