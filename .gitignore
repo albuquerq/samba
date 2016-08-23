@@ -10,6 +10,6 @@
 .~lock.*
 
 #Django
-
 *.pyc
-/**/miprations/*.py
+/**/migrations/*.py
+samba/**/migrations/*.py
